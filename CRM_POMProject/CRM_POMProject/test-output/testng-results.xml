@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18343" started-at="2022-09-19T15:06:16 IST" finished-at="2022-09-19T15:06:35 IST">
+    <groups>
+    </groups>
+    <test name="ParellelTest" duration-ms="18343" started-at="2022-09-19T15:06:16 IST" finished-at="2022-09-19T15:06:35 IST">
+      <class name="com.CRM_POMProject.Scripts.SanityTest">
+        <test-method status="PASS" signature="addClient()[pri:3, instance:com.CRM_POMProject.Scripts.SanityTest@73d4cc9e]" name="addClient" duration-ms="2623" started-at="2022-09-19T15:06:32 IST" finished-at="2022-09-19T15:06:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addClient -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.CRM_POMProject.Scripts.SanityTest@73d4cc9e]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2022-09-19T15:06:35 IST" finished-at="2022-09-19T15:06:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addClient status=SUCCESS method=SanityTest.addClient()[pri:3, instance:com.CRM_POMProject.Scripts.SanityTest@73d4cc9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- com.CRM_POMProject.Scripts.SanityTest -->
+      <class name="com.CRM_POMProject.Scripts.RegressionTest">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.CRM_POMProject.Scripts.RegressionTest@7dc222ae]" name="beforeTest" is-config="true" duration-ms="9377" started-at="2022-09-19T15:06:16 IST" finished-at="2022-09-19T15:06:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verifysigninInvalidEmailInvalidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.CRM_POMProject.Scripts.RegressionTest@7dc222ae]" name="verifysigninInvalidEmailInvalidPassword" duration-ms="1447" started-at="2022-09-19T15:06:26 IST" data-provider="InvalidUserInvalidPass" finished-at="2022-09-19T15:06:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[xyz@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[478956]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysigninInvalidEmailInvalidPassword -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.CRM_POMProject.Scripts.RegressionTest@7dc222ae]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2022-09-19T15:06:27 IST" finished-at="2022-09-19T15:06:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifysigninInvalidEmailInvalidPassword status=SUCCESS method=RegressionTest.verifysigninInvalidEmailInvalidPassword(java.lang.String,java.lang.String)[pri:1, instance:com.CRM_POMProject.Scripts.RegressionTest@7dc222ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="verifysigninValidEmailValidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.CRM_POMProject.Scripts.RegressionTest@7dc222ae]" name="verifysigninValidEmailValidPassword" duration-ms="4419" started-at="2022-09-19T15:06:28 IST" data-provider="ValiduserValidPass" finished-at="2022-09-19T15:06:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysigninValidEmailValidPassword -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.CRM_POMProject.Scripts.RegressionTest@7dc222ae]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2022-09-19T15:06:32 IST" finished-at="2022-09-19T15:06:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifysigninValidEmailValidPassword status=SUCCESS method=RegressionTest.verifysigninValidEmailValidPassword(java.lang.String,java.lang.String)[pri:2, instance:com.CRM_POMProject.Scripts.RegressionTest@7dc222ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.CRM_POMProject.Scripts.RegressionTest@7dc222ae]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-09-19T15:06:35 IST" finished-at="2022-09-19T15:06:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.CRM_POMProject.Scripts.RegressionTest -->
+    </test> <!-- ParellelTest -->
+  </suite> <!-- Suite -->
+</testng-results>
